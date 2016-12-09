@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FD3EE4F1DFA9BAF0046F82A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD3EE4E1DFA9BAF0046F82A /* main.m */; };
+		6FD3EE521DFA9BAF0046F82A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD3EE511DFA9BAF0046F82A /* AppDelegate.m */; };
+		6FD3EE551DFA9BAF0046F82A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD3EE541DFA9BAF0046F82A /* ViewController.m */; };
+		6FD3EE581DFA9BAF0046F82A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FD3EE561DFA9BAF0046F82A /* Main.storyboard */; };
+		6FD3EE5A1DFA9BAF0046F82A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FD3EE591DFA9BAF0046F82A /* Assets.xcassets */; };
+		6FD3EE5D1DFA9BAF0046F82A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FD3EE5B1DFA9BAF0046F82A /* LaunchScreen.storyboard */; };
+		6FD3EE681DFA9BB00046F82A /* XYTimeLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD3EE671DFA9BB00046F82A /* XYTimeLabelTests.m */; };
+		6FD3EE731DFA9BB00046F82A /* XYTimeLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD3EE721DFA9BB00046F82A /* XYTimeLabelUITests.m */; };
+		6FD3EE821DFA9C350046F82A /* UILabel+Time.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD3EE811DFA9C350046F82A /* UILabel+Time.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6FD3EE641DFA9BB00046F82A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FD3EE421DFA9BAF0046F82A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FD3EE491DFA9BAF0046F82A;
+			remoteInfo = XYTimeLabel;
+		};
+		6FD3EE6F1DFA9BB00046F82A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FD3EE421DFA9BAF0046F82A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FD3EE491DFA9BAF0046F82A;
+			remoteInfo = XYTimeLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6FD3EE4A1DFA9BAF0046F82A /* XYTimeLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYTimeLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FD3EE4E1DFA9BAF0046F82A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6FD3EE501DFA9BAF0046F82A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6FD3EE511DFA9BAF0046F82A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6FD3EE531DFA9BAF0046F82A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6FD3EE541DFA9BAF0046F82A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6FD3EE571DFA9BAF0046F82A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FD3EE591DFA9BAF0046F82A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FD3EE5C1DFA9BAF0046F82A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6FD3EE5E1DFA9BAF0046F82A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FD3EE631DFA9BB00046F82A /* XYTimeLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYTimeLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FD3EE671DFA9BB00046F82A /* XYTimeLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYTimeLabelTests.m; sourceTree = "<group>"; };
+		6FD3EE691DFA9BB00046F82A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FD3EE6E1DFA9BB00046F82A /* XYTimeLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYTimeLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FD3EE721DFA9BB00046F82A /* XYTimeLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYTimeLabelUITests.m; sourceTree = "<group>"; };
+		6FD3EE741DFA9BB00046F82A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FD3EE801DFA9C350046F82A /* UILabel+Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Time.h"; sourceTree = "<group>"; };
+		6FD3EE811DFA9C350046F82A /* UILabel+Time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Time.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FD3EE471DFA9BAF0046F82A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FD3EE601DFA9BB00046F82A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FD3EE6B1DFA9BB00046F82A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FD3EE411DFA9BAF0046F82A = {
+			isa = PBXGroup;
+			children = (
+				6FD3EE4C1DFA9BAF0046F82A /* XYTimeLabel */,
+				6FD3EE661DFA9BB00046F82A /* XYTimeLabelTests */,
+				6FD3EE711DFA9BB00046F82A /* XYTimeLabelUITests */,
+				6FD3EE4B1DFA9BAF0046F82A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FD3EE4B1DFA9BAF0046F82A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FD3EE4A1DFA9BAF0046F82A /* XYTimeLabel.app */,
+				6FD3EE631DFA9BB00046F82A /* XYTimeLabelTests.xctest */,
+				6FD3EE6E1DFA9BB00046F82A /* XYTimeLabelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FD3EE4C1DFA9BAF0046F82A /* XYTimeLabel */ = {
+			isa = PBXGroup;
+			children = (
+				6FD3EE501DFA9BAF0046F82A /* AppDelegate.h */,
+				6FD3EE511DFA9BAF0046F82A /* AppDelegate.m */,
+				6FD3EE531DFA9BAF0046F82A /* ViewController.h */,
+				6FD3EE541DFA9BAF0046F82A /* ViewController.m */,
+				6FD3EE801DFA9C350046F82A /* UILabel+Time.h */,
+				6FD3EE811DFA9C350046F82A /* UILabel+Time.m */,
+				6FD3EE561DFA9BAF0046F82A /* Main.storyboard */,
+				6FD3EE591DFA9BAF0046F82A /* Assets.xcassets */,
+				6FD3EE5B1DFA9BAF0046F82A /* LaunchScreen.storyboard */,
+				6FD3EE5E1DFA9BAF0046F82A /* Info.plist */,
+				6FD3EE4D1DFA9BAF0046F82A /* Supporting Files */,
+			);
+			path = XYTimeLabel;
+			sourceTree = "<group>";
+		};
+		6FD3EE4D1DFA9BAF0046F82A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FD3EE4E1DFA9BAF0046F82A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6FD3EE661DFA9BB00046F82A /* XYTimeLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				6FD3EE671DFA9BB00046F82A /* XYTimeLabelTests.m */,
+				6FD3EE691DFA9BB00046F82A /* Info.plist */,
+			);
+			path = XYTimeLabelTests;
+			sourceTree = "<group>";
+		};
+		6FD3EE711DFA9BB00046F82A /* XYTimeLabelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6FD3EE721DFA9BB00046F82A /* XYTimeLabelUITests.m */,
+				6FD3EE741DFA9BB00046F82A /* Info.plist */,
+			);
+			path = XYTimeLabelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FD3EE491DFA9BAF0046F82A /* XYTimeLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FD3EE771DFA9BB00046F82A /* Build configuration list for PBXNativeTarget "XYTimeLabel" */;
+			buildPhases = (
+				6FD3EE461DFA9BAF0046F82A /* Sources */,
+				6FD3EE471DFA9BAF0046F82A /* Frameworks */,
+				6FD3EE481DFA9BAF0046F82A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XYTimeLabel;
+			productName = XYTimeLabel;
+			productReference = 6FD3EE4A1DFA9BAF0046F82A /* XYTimeLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6FD3EE621DFA9BB00046F82A /* XYTimeLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FD3EE7A1DFA9BB00046F82A /* Build configuration list for PBXNativeTarget "XYTimeLabelTests" */;
+			buildPhases = (
+				6FD3EE5F1DFA9BB00046F82A /* Sources */,
+				6FD3EE601DFA9BB00046F82A /* Frameworks */,
+				6FD3EE611DFA9BB00046F82A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FD3EE651DFA9BB00046F82A /* PBXTargetDependency */,
+			);
+			name = XYTimeLabelTests;
+			productName = XYTimeLabelTests;
+			productReference = 6FD3EE631DFA9BB00046F82A /* XYTimeLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6FD3EE6D1DFA9BB00046F82A /* XYTimeLabelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FD3EE7D1DFA9BB00046F82A /* Build configuration list for PBXNativeTarget "XYTimeLabelUITests" */;
+			buildPhases = (
+				6FD3EE6A1DFA9BB00046F82A /* Sources */,
+				6FD3EE6B1DFA9BB00046F82A /* Frameworks */,
+				6FD3EE6C1DFA9BB00046F82A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FD3EE701DFA9BB00046F82A /* PBXTargetDependency */,
+			);
+			name = XYTimeLabelUITests;
+			productName = XYTimeLabelUITests;
+			productReference = 6FD3EE6E1DFA9BB00046F82A /* XYTimeLabelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FD3EE421DFA9BAF0046F82A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = XinYu;
+				TargetAttributes = {
+					6FD3EE491DFA9BAF0046F82A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					6FD3EE621DFA9BB00046F82A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6FD3EE491DFA9BAF0046F82A;
+					};
+					6FD3EE6D1DFA9BB00046F82A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6FD3EE491DFA9BAF0046F82A;
+					};
+				};
+			};
+			buildConfigurationList = 6FD3EE451DFA9BAF0046F82A /* Build configuration list for PBXProject "XYTimeLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FD3EE411DFA9BAF0046F82A;
+			productRefGroup = 6FD3EE4B1DFA9BAF0046F82A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FD3EE491DFA9BAF0046F82A /* XYTimeLabel */,
+				6FD3EE621DFA9BB00046F82A /* XYTimeLabelTests */,
+				6FD3EE6D1DFA9BB00046F82A /* XYTimeLabelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FD3EE481DFA9BAF0046F82A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FD3EE5D1DFA9BAF0046F82A /* LaunchScreen.storyboard in Resources */,
+				6FD3EE5A1DFA9BAF0046F82A /* Assets.xcassets in Resources */,
+				6FD3EE581DFA9BAF0046F82A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FD3EE611DFA9BB00046F82A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FD3EE6C1DFA9BB00046F82A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FD3EE461DFA9BAF0046F82A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FD3EE551DFA9BAF0046F82A /* ViewController.m in Sources */,
+				6FD3EE821DFA9C350046F82A /* UILabel+Time.m in Sources */,
+				6FD3EE521DFA9BAF0046F82A /* AppDelegate.m in Sources */,
+				6FD3EE4F1DFA9BAF0046F82A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FD3EE5F1DFA9BB00046F82A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FD3EE681DFA9BB00046F82A /* XYTimeLabelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FD3EE6A1DFA9BB00046F82A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FD3EE731DFA9BB00046F82A /* XYTimeLabelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FD3EE651DFA9BB00046F82A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FD3EE491DFA9BAF0046F82A /* XYTimeLabel */;
+			targetProxy = 6FD3EE641DFA9BB00046F82A /* PBXContainerItemProxy */;
+		};
+		6FD3EE701DFA9BB00046F82A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FD3EE491DFA9BAF0046F82A /* XYTimeLabel */;
+			targetProxy = 6FD3EE6F1DFA9BB00046F82A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6FD3EE561DFA9BAF0046F82A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FD3EE571DFA9BAF0046F82A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6FD3EE5B1DFA9BAF0046F82A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FD3EE5C1DFA9BAF0046F82A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FD3EE751DFA9BB00046F82A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6FD3EE761DFA9BB00046F82A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FD3EE781DFA9BB00046F82A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XYTimeLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xinyu.XYTimeLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6FD3EE791DFA9BB00046F82A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XYTimeLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xinyu.XYTimeLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6FD3EE7B1DFA9BB00046F82A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XYTimeLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xinyu.XYTimeLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XYTimeLabel.app/XYTimeLabel";
+			};
+			name = Debug;
+		};
+		6FD3EE7C1DFA9BB00046F82A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XYTimeLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xinyu.XYTimeLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XYTimeLabel.app/XYTimeLabel";
+			};
+			name = Release;
+		};
+		6FD3EE7E1DFA9BB00046F82A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XYTimeLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xinyu.XYTimeLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XYTimeLabel;
+			};
+			name = Debug;
+		};
+		6FD3EE7F1DFA9BB00046F82A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XYTimeLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xinyu.XYTimeLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XYTimeLabel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FD3EE451DFA9BAF0046F82A /* Build configuration list for PBXProject "XYTimeLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FD3EE751DFA9BB00046F82A /* Debug */,
+				6FD3EE761DFA9BB00046F82A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FD3EE771DFA9BB00046F82A /* Build configuration list for PBXNativeTarget "XYTimeLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FD3EE781DFA9BB00046F82A /* Debug */,
+				6FD3EE791DFA9BB00046F82A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6FD3EE7A1DFA9BB00046F82A /* Build configuration list for PBXNativeTarget "XYTimeLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FD3EE7B1DFA9BB00046F82A /* Debug */,
+				6FD3EE7C1DFA9BB00046F82A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6FD3EE7D1DFA9BB00046F82A /* Build configuration list for PBXNativeTarget "XYTimeLabelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FD3EE7E1DFA9BB00046F82A /* Debug */,
+				6FD3EE7F1DFA9BB00046F82A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FD3EE421DFA9BAF0046F82A /* Project object */;
+}
